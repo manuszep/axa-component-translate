@@ -13,11 +13,6 @@ module.exports = {
     library: 'Translate'
   },
 
-  externals: {
-   'react': 'var react',
-   'react/addons': 'var react'
-  },
-
   module: {
     loaders: [
       {
