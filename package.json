@@ -2,6 +2,7 @@
   "name": "axa-component-translate",
   "version": "1.0.0",
   "description": "Translation tools and components for AXA web applications. This is part of the AXA React components library.",
+  "main": "axa-component-translate.js",
   "scripts": {
     "test": "eslint lib/ spec/ && ./node_modules/karma/bin/karma start karma.conf.js",
     "watch-test": "./node_modules/karma/bin/karma start karma.conf.js --auto-watch --no-single-run",
@@ -18,7 +19,6 @@
     "react-component"
   ],
   "devDependencies": {
-    "axios": "^0.16.2",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.2",
@@ -37,8 +37,6 @@
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.4",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.6",
@@ -46,6 +44,8 @@
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "react": "^15.6.1"
+    "axios": "^0.16.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
