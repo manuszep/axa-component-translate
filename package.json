@@ -1,7 +1,7 @@
 {
-  "name": "translate",
+  "name": "axa-component-translate",
   "version": "1.0.0",
-  "description": "Translate",
+  "description": "Translation tools and components for AXA web applications. This is part of the AXA React components library.",
   "scripts": {
     "test": "eslint lib/ spec/ && ./node_modules/karma/bin/karma start karma.conf.js",
     "watch-test": "./node_modules/karma/bin/karma start karma.conf.js --auto-watch --no-single-run",

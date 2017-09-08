@@ -8,7 +8,7 @@ module.exports = {
 
   output: {
     path: path.join(__dirname),
-    filename: 'translate.js',
+    filename: 'axa-component-translate.js',
     libraryTarget: 'umd',
     library: 'Translate'
   },
