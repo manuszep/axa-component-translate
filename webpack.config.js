@@ -14,8 +14,8 @@ module.exports = {
   },
 
   externals: {
-   'react': 'var React',
-   'react/addons': 'var React'
+   'react': 'var react',
+   'react/addons': 'var react'
   },
 
   module: {
