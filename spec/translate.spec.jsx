@@ -1,5 +1,5 @@
 import React from 'react/addons';
-import Translate from '../lib/translate.jsx';
+import Translate from '../lib/TranslateLabel.jsx';
 
 describe('Translate', function() {
   var component;
