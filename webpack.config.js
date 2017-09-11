@@ -13,6 +13,11 @@ module.exports = {
     library: 'axa-component-translate'
   },
 
+  externals: {
+    "react": "react",
+    "axios": "axios"
+  },
+
   module: {
     loaders: [
       {
