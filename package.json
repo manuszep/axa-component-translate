@@ -1,8 +1,8 @@
 {
-  "name": "axa-component-translate",
+  "name": "react-component-translate",
   "version": "1.0.0",
   "description": "Translation tools and components for AXA web applications. This is part of the AXA React components library.",
-  "main": "axa-component-translate.js",
+  "main": "react-component-translate.js",
   "scripts": {
     "test": "eslint lib/ spec/ && ./node_modules/karma/bin/karma start karma.conf.js",
     "watch-test": "./node_modules/karma/bin/karma start karma.conf.js --auto-watch --no-single-run",
@@ -54,5 +54,5 @@
   "dependencies": {
     "babel-runtime": "^6.26.0"
   },
-  "repository": "https://github.com/manuszep/axa-component-translate.git"
+  "repository": "https://github.com/manuszep/react-component-translate.git"
 }
