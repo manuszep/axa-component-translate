@@ -7,7 +7,7 @@ Here is a sample integration:
 ```js
 require.config({
   paths: {
-    'react': 'vendor/bower_components/react/react',
+    'react': 'react',
     'Translate': 'translate'
   }
 });
